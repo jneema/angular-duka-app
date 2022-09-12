@@ -17,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { UserComponent } from './user/user.component';
 import { UserrComponent } from './userr/userr.component';
+import { UserrrComponent } from './userrr/userrr.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { UserrComponent } from './userr/userr.component';
     SalesComponent,
     NavbarComponent,
     UserComponent,
-    UserrComponent
+    UserrComponent,
+    UserrrComponent
   ],
   imports: [
     BrowserModule,
