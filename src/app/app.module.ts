@@ -15,13 +15,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { UserComponent } from './user/user.component';
+import { UserrComponent } from './userr/userr.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     SalesComponent,
-    NavbarComponent
+    NavbarComponent,
+    UserComponent,
+    UserrComponent
   ],
   imports: [
     BrowserModule,
